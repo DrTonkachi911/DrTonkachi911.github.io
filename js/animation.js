@@ -30,6 +30,6 @@ sr.reveal(".newstable", {
 });
 
 sr.reveal(".about-section", {
-    delay:500,
+    delay:300,
     duration:3000
 });
