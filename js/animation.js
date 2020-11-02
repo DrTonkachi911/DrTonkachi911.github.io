@@ -31,7 +31,18 @@ sr.reveal(".newstable", {
 
 sr.reveal(".about-section", {
     delay:300,
-    duration:3000
+    duration:2000
+});
+
+sr.reveal(".about-section .row", {
+    delay:1500,
+    duration:2000
+});
+
+sr.reveal(".about-section .img-fluid", {
+    delay:2000,
+    scale:0,
+    duration:2000
 });
 
 sr.reveal(".signup-section", {
