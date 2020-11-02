@@ -45,7 +45,7 @@ sr.reveal(".contact-section", {
 })
 
 sr.reveal(".contact-section .card", {
-    delay:1000,
+    delay:1200,
     scale:0.0,
     duration:1500
 })
