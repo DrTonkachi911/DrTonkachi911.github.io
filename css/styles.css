@@ -10381,15 +10381,20 @@ body {
   margin-bottom: 100px;
 }
 
-.news_menu {
-  width: 100%;
-  height: auto;
+.news h1{
+  margin-bottom: 120px;
+}
+
+.news .newstable {
+  height: 250px;
+  width: auto;
+  overflow-y: scroll;
   display: flex;
   justify-content: center;
 }
 
-.news h1{
-  margin-bottom: 120px;
+.newstable::-webkit-scrollbar { 
+  display: none; 
 }
 
 .news table{
