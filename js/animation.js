@@ -24,6 +24,7 @@ sr.reveal(".masthead .text-uppercase", {
 
 sr.reveal(".newstable", {
     scale:0,
+    opacity:1,
     delay:200,
     duration:1500
 });
