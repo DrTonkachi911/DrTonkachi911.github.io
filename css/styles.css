@@ -10431,7 +10431,7 @@ body {
 
 .members h1{
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .members ul li{
@@ -10463,7 +10463,7 @@ body {
 }
 
 .tab-wrap {
-  margin: 100px 0px;
+  margin: 50px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
