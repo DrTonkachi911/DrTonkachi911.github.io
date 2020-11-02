@@ -10515,3 +10515,92 @@ body {
 .tab-switch {
   display: none;
 }
+
+.dev-top {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20%;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1.0));
+  text-align: center;
+}
+
+.dev-top h1{
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 10%;
+  padding-bottom: 70px;
+  color: white;
+}
+
+.dev-about {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20vh;
+  text-align: center;
+  background: radial-gradient(rgba(255, 255, 255, 1.0), rgba(200, 200, 200, 1.0));
+}
+
+.dev-about h1{
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 10vh;
+  padding-bottom: 70px;
+  color: black;
+}
+
+.dev-about ul {
+  margin: 150px 0px;
+}
+
+.dev-about ul li{
+  display: inline-block;
+  margin: 20px 100px;
+}
+
+.dev-about ul li img{
+  width: 128px;
+  height: 128px;
+}
+
+.dev-social {
+  width: 100%;
+  height: auto;
+  padding: 75px 0;
+  text-align: center;
+  background: radial-gradient(rgba(25, 25, 25, 1.0), rgba(45, 45, 45, 1.0));
+}
+
+.dev-social h1{
+  color: white;
+}
+
+.dev-social ul {
+  margin: 100px 0px;
+}
+
+.dev-social ul li{
+  color: white;
+  width: 300px;
+  height: 130px;
+  max-width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 20px 100px;
+  box-shadow: 0 0 6px white;
+}
+
+.dev-social ul li a{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.dev-social ul li a:hover{
+  text-decoration: underline;
+}
+
+.dev-social ul li img{
+  width: 128px;
+  height: 128px;
+}

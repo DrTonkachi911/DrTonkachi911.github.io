@@ -65,3 +65,54 @@ sr.reveal(".footer", {
     delay:300,
     duration:1500
 });
+
+sr.reveal(".dev-top", {
+    delay:300,
+    duration: 1000
+});
+
+sr.reveal(".dev-top h1", {
+    delay:1200,
+    duration:1200
+});
+
+sr.reveal(".dev-top img", {
+    delay:2000,
+    duration:1200
+});
+
+sr.reveal(".dev-about", {
+    delay:300,
+    duration:1500
+});
+
+sr.reveal(".dev-about h1", {
+    delay:1000,
+    duration:1000
+});
+
+sr.reveal(".dev-about h2", {
+    delay:1700,
+    duration:1000
+});
+
+sr.reveal(".dev-about img", {
+    delay:2500,
+    duration:1500
+});
+
+sr.reveal(".dev-social", {
+    delay:300,
+    duration:1500
+});
+
+sr.reveal(".dev-social h1", {
+    delay:1000,
+    duration:1000
+});
+
+sr.reveal(".dev-social ul li", {
+    delay:1500,
+    scale:0,
+    duration:2000
+});
