@@ -37,15 +37,20 @@ sr.reveal(".about-section", {
 sr.reveal(".signup-section", {
     delay:300,
     duration:1500
-})
+});
 
 sr.reveal(".contact-section", {
     delay:300,
     duration:1500
-})
+});
 
 sr.reveal(".contact-section .card", {
     delay:1200,
     scale:0.0,
     duration:1500
-})
+});
+
+sr.reveal(".footer", {
+    delay:300,
+    duration:1500
+});
