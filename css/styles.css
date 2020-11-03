@@ -10414,6 +10414,13 @@ body {
   padding: 15px 40px;
 }
 
+@media (max-width:600px) {
+  .news th, td{
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+}
+
 .news table a{
   color: black;
   text-decoration: none;
