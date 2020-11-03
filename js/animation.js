@@ -14,12 +14,12 @@ sr.reveal(".members .tab-wrap", {
 
 sr.reveal(".masthead", {
     delay:300,
-    duration:3000
+    duration:2000
 });
 
 sr.reveal(".masthead .text-uppercase", {
     delay:1500,
-    duration:3000
+    duration:2000
 });
 
 sr.reveal(".news h1", {
