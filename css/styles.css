@@ -10379,8 +10379,8 @@ body {
   height: auto;
   text-align: center;
   padding: 100px 0px;
-  padding-bottom: 170px;
-  margin-bottom: 200px;
+  padding-bottom: 370px;
+  background: radial-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1));
 }
 
 .news h1{
@@ -10493,6 +10493,10 @@ body {
   opacity: 0;
   height: 0;
   transform: translateY(50%);
+}
+
+.tab-content h1{
+  margin: auto auto;
 }
 
 /* アクティブなタブ */
