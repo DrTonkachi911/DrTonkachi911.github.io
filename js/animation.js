@@ -6,8 +6,8 @@ sr.reveal(".masthead", {
 });
 
 sr.reveal(".masthead .text-uppercase", {
-    delay:1500,
-    duration:2000
+    delay:1000,
+    duration:2500
 });
 
 sr.reveal(".members", {
