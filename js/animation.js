@@ -22,11 +22,16 @@ sr.reveal(".masthead .text-uppercase", {
     duration:3000
 });
 
+sr.reveal(".news h1", {
+    delay:300,
+    duration:1200
+});
+
 sr.reveal(".newstable", {
     scale:0,
     opacity:1,
-    delay:200,
-    duration:1500
+    delay:750,
+    duration:1200
 });
 
 sr.reveal(".about-section .row", {
