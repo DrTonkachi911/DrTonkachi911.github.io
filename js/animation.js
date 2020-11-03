@@ -1,5 +1,15 @@
 window.sr = ScrollReveal();
 
+sr.reveal(".masthead", {
+    delay:300,
+    duration:2000
+});
+
+sr.reveal(".masthead .text-uppercase", {
+    delay:1500,
+    duration:2000
+});
+
 sr.reveal(".members", {
     delay:300,
     duration:3000
@@ -10,16 +20,6 @@ sr.reveal(".members .tab-wrap", {
     origin:'bottom',
     distance:"400px",
     duration:1500
-});
-
-sr.reveal(".masthead", {
-    delay:300,
-    duration:2000
-});
-
-sr.reveal(".masthead .text-uppercase", {
-    delay:1500,
-    duration:2000
 });
 
 sr.reveal(".news h1", {
