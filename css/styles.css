@@ -10437,8 +10437,14 @@ body {
   margin-top: 30px;
 }
 
-.members ul li{
+.members ul {
+  list-style-type: none;
+  justify-content: center;
+}
+
+.members ul li {
   height: auto;
+  max-width: 80%;
   background: radial-gradient(rgb(220,220,220),rgb(255,255,255));
   box-shadow: 0 0 8px black;
   display: inline-block;
@@ -10464,6 +10470,14 @@ body {
 .members ul li img{
   width: 400px;
   height: 400px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width:400px) {
+  .members ul li a h1 {
+    font-size: 30px;
+  }
 }
 
 .tab-wrap {
@@ -10491,7 +10505,9 @@ body {
 
 .tab-content {
   overflow: hidden;
-  width: 85%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
   opacity: 0;
   height: 0;
   transform: translateY(50%);
