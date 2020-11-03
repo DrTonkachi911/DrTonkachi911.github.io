@@ -16,30 +16,26 @@ sr.reveal(".members", {
 });
 
 sr.reveal(".members .tab-wrap", {
-    delay:500,
-    rotate: {
-        y: 100
-    },
+    delay:300,
+    origin:"bottom",
+    distance:"50%",
     duration:2000
 });
 
-sr.reveal(".members .tab-wrap ul", {
-    delay:1000,
-    origin:'bottom',
-    distance:"400px",
-    duration:2000
+sr.reveal(".news", {
+    duration:1000
 });
 
 sr.reveal(".news h1", {
-    delay:300,
-    duration:1200
+    delay:500,
+    duration:1500
 });
 
 sr.reveal(".newstable", {
     scale:0,
     opacity:1,
-    delay:750,
-    duration:1200
+    delay:500,
+    duration:1500
 });
 
 sr.reveal(".about-section .row", {
