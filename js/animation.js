@@ -12,14 +12,22 @@ sr.reveal(".masthead .text-uppercase", {
 
 sr.reveal(".members", {
     delay:300,
-    duration:3000
+    duration:2000
 });
 
 sr.reveal(".members .tab-wrap", {
     delay:500,
+    rotate: {
+        y: 100
+    },
+    duration:2000
+});
+
+sr.reveal(".members .tab-wrap ul", {
+    delay:1000,
     origin:'bottom',
     distance:"400px",
-    duration:1500
+    duration:2000
 });
 
 sr.reveal(".news h1", {
