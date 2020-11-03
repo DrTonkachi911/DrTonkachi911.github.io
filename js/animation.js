@@ -10,13 +10,13 @@ sr.reveal(".masthead .text-uppercase", {
     duration:2500
 });
 
-sr.reveal(".members", {
+sr.reveal(".members h1", {
     delay:300,
     duration:2000
 });
 
 sr.reveal(".members .tab-wrap", {
-    delay:300,
+    delay:500,
     origin:"bottom",
     distance:"50%",
     duration:2000
