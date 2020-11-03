@@ -29,11 +29,6 @@ sr.reveal(".newstable", {
     duration:1500
 });
 
-// sr.reveal(".about-section", {
-//     delay:100,
-//     duration:1000
-// });
-
 sr.reveal(".about-section .row", {
     delay:300,
     duration:2000
@@ -45,26 +40,11 @@ sr.reveal(".about-section .img-fluid", {
     duration:2000
 });
 
-// sr.reveal(".signup-section", {
-//     delay:300,
-//     duration:1500
-// });
-
-// sr.reveal(".contact-section", {
-//     delay:300,
-//     duration:1500
-// });
-
 sr.reveal(".contact-section .card", {
     delay:300,
     scale:0.0,
-    duration:1500
+    duration:1200
 });
-
-// sr.reveal(".footer", {
-//     delay:300,
-//     duration:1500
-// });
 
 sr.reveal(".dev-top", {
     delay:300,
