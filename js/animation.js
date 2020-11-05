@@ -22,6 +22,8 @@ sr.reveal(".members .tab-wrap", {
     duration:2000
 });
 
+sr.clean(".members .tab-wrap h1");
+
 sr.reveal(".news", {
     duration:1000
 });
