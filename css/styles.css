@@ -10525,10 +10525,6 @@ body {
   transform: translateY(50%);
 }
 
-.tab-content h1{
-  margin: auto auto;
-}
-
 /* アクティブなタブ */
 .tab-switch:checked+.tab-label {
   transform: translateY(-7px);
