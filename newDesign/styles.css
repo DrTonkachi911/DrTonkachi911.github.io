@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
-html{
+/* html{
     scroll-behavior: smooth;
-}
+} */
 
 .sticky {
     z-index: 9999;
@@ -20,7 +20,13 @@ html{
     user-select: none;
     height: 60px;
     width: 100%;
+    transition: all 0.5s;
     background: rgba(255, 255, 255, 1);
+}
+
+.navbar img {
+  height: 60px;
+  margin-left: 10vh;
 }
 
 .navbar ul{
@@ -35,65 +41,21 @@ html{
 }
 
 .navbar ul li a{
-    border-radius: 8px;
-    text-decoration: none;
-    color: black;
-    padding: 6px 13px;
-    font-size: 18px;
-    font-family: 'Roboto';
-    transition: all 0.5s;
+  color:black;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 6px 13px;
+  font-size: 18px;
 }
 
 .navbar ul li a:hover{
-    background:rgb(230, 230, 230);
-}
-
-label #btn,
-label #cancel{
-    color: white;
-    font-size: 30px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
-}
-
-#check {
-    display:none;
+    color: rgb(0,0,0,0.3);
+    /* text-decoration: underline; */
 }
 
 @media (max-width: 600px) {
-    label #btn{
-        display: block;
-    }
-
-    ul {
-        position: fixed;
-        width: 100%;
-        height: auto;
-        background: rgba(0, 0, 0, 0.5);
-        top: -100%;
-        left: 0;
-        text-align: center;
-        transition: 0.5s;
-    }
-
-    .navbar ul li{
-        display: block;
-        margin: 10px auto;
-    }
-
-    #check:checked ~ ul {
-        top: 80px;
-    }
-
-    #check:checked ~ label #btn {
-        display: none;
-    }
-
-    #check:checked ~ label #cancel {
-        display: block;
+    .navbar ul {
+      display: none;
     }
 }
 
@@ -113,56 +75,247 @@ label #cancel{
   font-size: 48px;
 }
 
-.news {
+.news-section {
     width: 100%;
-    height: 100vh;
+    height: auto;
+    min-height: 50vh;
     text-align: center;
-    background: radial-gradient(rgba(255, 255, 255, 1), rgba(200, 200, 200, 1));
+    color: white;
+    background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0));
   }
   
-.news h1{
+.news-section h1{
     padding-top: 150px;
     margin-bottom: 70px;
 }
   
-  .news .newstable {
+.news-section .newstable {
     height: 250px;
     width: auto;
     overflow-y: scroll;
     display: flex;
     justify-content: center;
-  }
+}
   
-  .newstable::-webkit-scrollbar { 
+.newstable::-webkit-scrollbar { 
     display: none; 
-  }
+}
+
+.news-section table {
+    border-collapse:collapse;
+}
   
-  .news table{
-    width: auto;
-  }
-  
-  .news tr{
+.news-section tr{
     text-align: left;
-    border-bottom: 1px black;
-  }
+    border-bottom: 2px solid white;
+}
   
-  .news th, td{
-    font-size: 32px;
-    padding: 15px 40px;
-  }
+.news-section th, td{
+  color: white;
+  font-size: 32px;
+  padding: 15px 40px;
+}
   
-  @media (max-width:600px) {
-    .news th, td{
+@media (max-width:600px) {
+  .news-section th, td{
       font-size: 20px;
       padding: 10px 20px;
     }
-  }
+}
   
-  .news table a{
-    color: black;
+.news-section table a{
+    color: white;
     text-decoration: none;
-  }
+}
   
-  .news table a:hover{
+.news-section table a:hover{
     text-decoration: underline;
+}
+
+.about-section {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgb(0,0,0),rgb(0,0,0,0.8));
+}
+
+.about-section h1 {
+  font-weight: normal;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about-section img {
+  margin: 75px auto;
+  max-width: 70%;
+  height: auto;
+}
+
+@media (max-width:600px) {
+  .about-section img {
+      max-width: 90%;
   }
+}
+
+.contact-section {
+  width: 100%;
+  height: auto;
+  min-height: 50vh;
+  text-align: center;
+  background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0));
+}
+
+.contact-section ul {
+  padding-top: 70px;
+  list-style: none;
+}
+
+.contact-section ul li {
+  display: inline-table;
+  margin: 25px 75px;
+}
+
+.contact-section ul li img {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+
+.contact-section p {
+  color: white;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+.contact-section h1 {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 85px;
+}
+
+.contact-section ul li:hover img {
+  transform: translateY(-15px) rotate(360deg);
+}
+
+.contact-section ul li:hover p {
+  transform: translateY(-15px);
+}
+
+.member-section {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(rgb(0,0,0), rgb(0, 0, 0,0.8));
+}
+
+.member-section h1{
+  color: white;
+  font-size: 42px;
+  padding-top: 120px;
+}
+
+.member-section ul {
+  margin: 25px 0px;
+  list-style: none;
+}
+
+.member-section ul li {
+  display: inline-table;
+  margin: 50px 50px;
+  height: auto;
+  width: auto;
+  max-width: 80%;
+  background: linear-gradient(rgb(70,70,70),rgb(255,255,255));
+  box-shadow: 0 0 12px white;
+  transition: all 0.5s;
+}
+
+.member-section ul li:hover {
+  transform: translateY(-10px) scale(1.02);
+}
+
+.member-section ul li h1 {
+  color: black;
+  padding-top: 0px;
+  line-height: 60px;
+}
+
+.member-section ul li img {
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
+
+.member-section ul li a {
+  text-decoration: none;
+}
+
+.tab-wrap {
+  padding: 30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tab-label {
+  /* color: black; */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  background: none;
+  margin-right: 15px;
+  padding: 15px 25px;
+  order: -1;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.tab-label:hover {
+  /* background: rgba(0, 0, 0, 0.05); */
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.tab-content {
+  overflow: hidden;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  height: 0;
+  transform: translateY(50%);
+}
+
+.tab-content h1 {
+  padding-top: 25px;
+}
+
+/* アクティブなタブ */
+.tab-switch:checked+.tab-label {
+  transform: translateY(-7px);
+  /* background: rgba(0, 0, 0, 0.2); */
+  background: rgba(255, 255, 255, 0.2);
+  outline: black;
+}
+
+.tab-switch:checked +.tab-label + .tab-content {
+  transition-property: opacity, transform;
+  transition-delay: 0.25s;
+  transition-duration: 2.0s, 1.0s;
+  opacity: 1.0;
+  height: auto;
+  transform: translateY(0px);
+}
+
+/* ラジオボタン非表示 */
+.tab-switch {
+  display: none;
+}
