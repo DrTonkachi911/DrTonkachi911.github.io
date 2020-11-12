@@ -36,9 +36,7 @@ sr.reveal(".about-section img", {
 
 sr.reveal(".contact-section ul", {
     delay:300,
-    duration:1000,
-    origin:"bottom",
-    distance:"50%"
+    duration:1000
 });
 
 sr.reveal(".member-section h1", {
@@ -49,9 +47,6 @@ sr.reveal(".member-section h1", {
 sr.reveal(".member-section .tab-wrap", {
     delay:300,
     duration:1200,
-    opacity:0,
-    origin:"bottom",
-    distance:"30%"
 });
 
 sr.clean(".member-section .tab-wrap .tab-content h1");
