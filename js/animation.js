@@ -1,109 +1,52 @@
 window.sr = ScrollReveal();
 
-sr.reveal(".masthead", {
+sr.reveal(".top-section", {
     delay:300,
     duration:2000
 });
 
-sr.reveal(".masthead .text-uppercase", {
-    delay:1000,
-    duration:2500
-});
-
-sr.reveal(".members h1", {
+sr.reveal(".news-section h1", {
     delay:300,
-    duration:2000
-});
-
-sr.reveal(".members .tab-wrap", {
-    delay:500,
-    origin:"bottom",
-    distance:"50%",
-    duration:2000
-});
-
-sr.clean(".members .tab-wrap h1");
-
-sr.reveal(".news", {
     duration:1000
 });
 
-sr.reveal(".news h1", {
-    delay:500,
-    duration:1500
-});
-
-sr.reveal(".newstable", {
-    scale:0,
-    opacity:1,
-    delay:500,
-    duration:1500
-});
-
-sr.reveal(".about-section .row", {
+sr.reveal(".news-section .newstable", {
     delay:300,
-    duration:2000
+    duration:1000,
+    scale:0.5,
+    opacity:0
 });
 
-sr.reveal(".about-section .img-fluid", {
-    delay:1000,
-    scale:0,
-    duration:2000
-});
-
-sr.reveal(".contact-section .card", {
+sr.reveal(".about-section h1", {
     delay:300,
-    scale:0.0,
     duration:1200
 });
 
-sr.reveal(".dev-top", {
+sr.reveal(".about-section p", {
     delay:300,
-    duration: 1000
-});
-
-sr.reveal(".dev-top h1", {
-    delay:1200,
     duration:1200
 });
 
-sr.reveal(".dev-top img", {
-    delay:2000,
-    duration:1200
+sr.reveal(".about-section img", {
+    delay:600,
+    duration:1000,
+    scale:0.5,
+    opacity:0
 });
 
-sr.reveal(".dev-about", {
+sr.reveal(".contact-section ul", {
     delay:300,
-    duration:1500
-});
-
-sr.reveal(".dev-about h1", {
-    delay:1000,
     duration:1000
 });
 
-sr.reveal(".dev-about h2", {
-    delay:1700,
-    duration:1000
-});
-
-sr.reveal(".dev-about img", {
-    delay:2500,
-    duration:1500
-});
-
-sr.reveal(".dev-social", {
+sr.reveal(".member-section h1", {
     delay:300,
-    duration:1500
-});
-
-sr.reveal(".dev-social h1", {
-    delay:1000,
     duration:1000
 });
 
-sr.reveal(".dev-social ul li", {
-    delay:1500,
-    scale:0,
-    duration:2000
+sr.reveal(".member-section .tab-wrap", {
+    delay:300,
+    duration:1200,
 });
+
+sr.clean(".member-section .tab-wrap .tab-content h1");

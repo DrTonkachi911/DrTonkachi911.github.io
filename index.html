@@ -1,144 +1,76 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="ホームーページ" />
-        <meta name="author" content="" />
-        <title>10Feet - 公式ホームページ</title>
-        <meta property="op:title" content="10Feet - 公式サイト">
-        <meta property="og:site_name" content="10feet-esports.com">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://10feet-esports.com/">
-        <meta property="og:image" content="https://10feet-esports.com/assets/img/favicon.ico">
-        <meta property="twitter:title" content="10Feet - 公式サイト">
-        <meta property="twitter:description" content="ホームーページ">
-        <meta property="twitter:image" content="https://10feet-esports.com/assets/img/bg-signup.jpg">
-        <meta property="twitter:image:src" content="https://10feet-esports.com/assets/img/bg-signup.jpg">
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="">ホーム</a>
-                <a class="nav-link js-scroll-trigger" href="/members/">部門</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#news">ニュース</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">目次</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">お問い合わせ</a></li>
-                    </ul>
-                </div>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>10Feet - 公式サイト</title>
+    <meta property="og:title" content="10Feet - 公式サイト">
+    <meta property="og:site_name" content="10feet-esports.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://10feet-esports.com/">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="10Feet - 公式サイト">
+
+    <meta name="description" content="ホームーページ" />
+    <meta property="twitter:description" content="ホームーページ">
+    <meta property="og:image" content="https://10feet-esports.com/assets/img/bg-signup.jpg">
+    <meta property="twitter:image" content="https://10feet-esports.com/assets/img/bg-signup.jpg">
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script> -->
+    <script src="js/load_news.js"></script>
+    <script>$(window).on('load');</script>
+</head>
+<body>
+    <div class="sticky">
+        <nav class="navbar">
+            <a href="https://10feet-esports.com"><img src="assets/img/logo.png"></a>
+            <ul>
+                <li><a href="./member/">メンバー</a></li>
+                <li><a class="scroll-trigger" href="#news">ニュース</a></li>
+                <li><a class="scroll-trigger" href="#about">目次</a></li>
+                <li><a class="scroll-trigger" href="#contact">連絡</a></li>
+            </ul>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0 text-uppercase">E Sports team</h1>
-            </div>
-        </header>
-        <!-- About-->
-        <div class="news" id="news">
-            <h1>News</h1>
-            <div class="newstable">
-                <table>
-                    <tr>
-                        <th>2020.11.02</th>
-                        <td><a href="./members/">メンバーページの更新</a></td>
-                    </tr>
-                    <tr>
-                        <th>2020.11.02</th>
-                        <td><a href="./">ホームページの公開</a></td>
-                    </tr>
-                </table>
-            </div>
+    </div>
+
+    <div class="top-section" id="top">
+        <!-- <h1>Esports Team</h1> -->
+    </div>
+    <div class="news-section" id="news">
+        <h1>News</h1>
+        <div class="newstable" id="news-content">
         </div>
-        <section class="about-section text-center" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4">10Feetとは</h2>
-                        <p class="text-white-50">10Feetは宮城県仙台市を拠点に活動するEスポーツチームです。現在4つの部門が活動しています。</p>
-                    </div>
-                </div>
-                <a href="https://twitter.com/10FeetEsports" target="_blank"><img class="img-fluid" src="assets/img/ipad.png" alt="" /></a>
-            </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">10Feet</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="https://twitter.com/10FeetEsports"target=”_blank”>@10FeetEsports</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="mailto:esports10feet@gmail.com">esports10feet@gmail.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Rebi</h4>
-                                <hr class="my-4" />
-                                <div class="small text-black-50"><a href="https://twitter.com/Rebi_1229"target=”_blank”>@Rebi_1229</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://twitter.com/10FeetEsports"target="”_blank"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-                </div> -->
-            </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © 10feet 2020</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="js/animation.js"></script>
-    </body>
+    </div>
+    <div class="about-section" id="about">
+        <h1>10Feetとは</h1>
+        <p>10Feetは宮城県仙台市を拠点に活動するEスポーツチームです。現在4つの部門が活動しています。</p>
+        <a href="https://twitter.com/10FeetEsports"><img src="assets/img/ipad.png"></a>
+    </div>
+    <div class="contact-section" id="contact">
+        <ul>
+            <li>
+                <a href="https://twitter.com/10FeetEsports" target="blank"><img src="assets/img/icons/10feet.jpg"></a>
+                <p>Twitter</p>
+            </li>
+            <li>
+                <a href="mailto:esports10feet@gmail.com" target="blank"><img src="assets/img/icons/email.png"></a>
+                <p>Email</p>
+            </li>
+            <li>
+                <a href="https://twitter.com/Rebi_1229" target="blank"><img src="assets/img/icons/twitter.png"></a>
+                <p>Owner</p>
+            </li>
+        </ul>
+        <h1>Copyright © 10Feet</h1>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/animation.js"></script>
+</body>
 </html>
