@@ -52,7 +52,6 @@ body {
 
 .navbar ul li a:hover{
     color: rgb(0,0,0,0.3);
-    /* text-decoration: underline; */
 }
 
 @media (max-width: 600px) {
