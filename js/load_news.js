@@ -1,4 +1,4 @@
-$.getJSON("./json/news.json", function(data) {
+$.getJSON("../json/news.json", function(data) {
     var content = document.getElementById("news-content");
     var table_obj = document.createElement("table");
     var length = data.length;
