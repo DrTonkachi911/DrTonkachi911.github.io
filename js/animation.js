@@ -5,6 +5,11 @@ sr.reveal(".top-section", {
     duration:2000
 });
 
+sr.reveal(".home-section", {
+    delay:300,
+    duration:2000
+});
+
 sr.reveal(".news-section h1", {
     delay:300,
     duration:1000
