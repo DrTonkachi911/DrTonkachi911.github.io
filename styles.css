@@ -299,10 +299,6 @@ body {
   transition: all 0.5s;
 }
 
-.member-section ul li:hover {
-  transform: translateY(-10px) scale(1.02);
-}
-
 .member-section ul li h1 {
   color: black;
   padding-top: 0px;
@@ -313,6 +309,10 @@ body {
   width: 400px;
   height: auto;
   max-width: 100%;
+}
+
+.member-section ul li:hover {
+  transform: translateY(-10px) scale(1.02);
 }
 
 .member-section ul li a {

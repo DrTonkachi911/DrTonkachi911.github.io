@@ -23,7 +23,7 @@ sr.reveal(".news-section a", {
 sr.reveal(".news-section .newstable", {
     delay:300,
     duration:1000,
-    scale:0.5,
+    scale:0.7,
     opacity:0
 });
 
@@ -40,7 +40,7 @@ sr.reveal(".about-section p", {
 sr.reveal(".about-section img", {
     delay:600,
     duration:1000,
-    scale:0.5,
+    scale:0.7,
     opacity:0
 });
 
