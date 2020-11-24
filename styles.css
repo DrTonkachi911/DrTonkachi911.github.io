@@ -229,7 +229,7 @@ body {
   height: auto;
   min-height: 50vh;
   text-align: center;
-  background: linear-gradient(rgb(25,25,25),rgb(10,10,10));
+  background: linear-gradient(rgb(10,10,10),rgb(0,0,0));
 }
 
 .contact-section ul {
@@ -274,7 +274,8 @@ body {
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  background: linear-gradient(rgb(10,10,10), rgb(25,25,25));
+  background: rgb(10, 10, 10);
+  /* background: linear-gradient(rgb(10,10,10), rgb(25,25,25)); */
 }
 
 .member-section h1{
