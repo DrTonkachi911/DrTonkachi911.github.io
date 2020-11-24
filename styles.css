@@ -81,22 +81,23 @@ body {
   background-size: cover;
 }
 
-.top-section .navigate {
+.navigate {
   width: 100%;
   height: 50px;
-  background: rgb(30,30,30);
+  background: rgb(20,20,20);
 }
 
-.top-section .navigate .navigates {
+.navigate .navigates {
   width: 100%;
   height: auto;
   margin: 0 20%;
   float: left;
 }
 
-.top-section .navigate a {
+.navigate a {
   margin-left: 20px;
   color: white;
+  text-transform: uppercase;
   text-decoration: none;
   line-height: 50px;
 }
@@ -258,7 +259,7 @@ body {
   color: white;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 85px;
+  margin: 85px 0px;
 }
 
 .contact-section ul li:hover img {
@@ -271,7 +272,6 @@ body {
 
 .member-section {
   width: 100%;
-  height: auto;
   min-height: 100vh;
   text-align: center;
   background: linear-gradient(rgb(10,10,10), rgb(25,25,25));
@@ -291,23 +291,20 @@ body {
 .member-section ul li {
   display: inline-table;
   margin: 50px 50px;
-  height: auto;
-  width: auto;
   max-width: 80%;
-  background: linear-gradient(rgb(70,70,70),rgb(255,255,255));
-  box-shadow: 0 0 12px white;
-  transition: all 0.5s;
+  background: white;
+  box-shadow: 0 0 6px white;
+  transition: all 0.3s;
 }
 
 .member-section ul li h1 {
   color: black;
-  padding-top: 0px;
+  padding: 0;
   line-height: 60px;
 }
 
 .member-section ul li img {
   width: 400px;
-  height: auto;
   max-width: 100%;
 }
 
@@ -368,10 +365,9 @@ body {
 .tab-switch:checked +.tab-label + .tab-content {
   transition-property: opacity;
   transition-delay: 0.25s;
-  transition-duration: 1.0s;
+  transition-duration: 0.3s;
   opacity: 1.0;
   height: auto;
-  transform: translateY(0px);
 }
 
 /* ラジオボタン非表示 */
