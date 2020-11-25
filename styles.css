@@ -294,8 +294,8 @@ body {
   display: inline-table;
   margin: 50px 50px;
   max-width: 80%;
-  background: white;
-  box-shadow: 0 0 6px white;
+  background: rgb(230,230,230);
+  border: 1px solid black;
   transition: all 0.3s;
 }
 
@@ -305,14 +305,23 @@ body {
   line-height: 60px;
 }
 
+.member-section ul li .member-item {
+  overflow: hidden;
+}
+
 .member-section ul li img {
   width: 400px;
   max-width: 100%;
+  transition: all 0.3s;
 }
 
-.member-section ul li:hover {
-  transform: translateY(-10px) scale(1.02);
+.member-section ul li:hover img {
+  transform: scale(1.1);
 }
+
+/* .member-section ul li:hover {
+  transform: translateY(-10px) scale(1.02);
+} */
 
 .member-section ul li a {
   text-decoration: none;
