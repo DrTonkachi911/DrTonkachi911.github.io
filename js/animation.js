@@ -38,8 +38,3 @@ sr.reveal(".about-section img", {
     scale:0.7,
     opacity:0
 });
-
-sr.reveal(".contact-section ul", {
-    delay:300,
-    duration:1000
-});
