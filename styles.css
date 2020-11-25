@@ -94,6 +94,12 @@ body {
   float: left;
 }
 
+@media (max-width: 600px) {
+  .navigate .navigates {
+    margin: 0 5%;
+  }
+}
+
 .navigate a {
   margin-left: 20px;
   color: white;
