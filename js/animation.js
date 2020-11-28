@@ -1,10 +1,5 @@
 window.sr = ScrollReveal();
 
-sr.reveal(".home-section", {
-    delay:300,
-    duration:1000
-});
-
 sr.reveal(".news-section h1", {
     delay:300,
     duration:1000
