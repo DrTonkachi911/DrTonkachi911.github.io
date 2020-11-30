@@ -262,11 +262,11 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 100%;
-  transition: all 0.5s;
+  transition: all 0.2s linear;
 }
 
 .contact-section ul li:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1, 1.1);
 }
 
 .contact-section ul li:hover p {
@@ -309,7 +309,6 @@ body {
 .member-section ul li {
   display: inline-table;
   margin: 50px 50px;
-  max-width: 80%;
   background: rgb(230,230,230);
   border: 1px solid black;
   transition: all 0.3s;
@@ -318,6 +317,7 @@ body {
 .member-section ul li h1 {
   color: black;
   padding: 0;
+  margin: 0;
   line-height: 60px;
 }
 
@@ -328,7 +328,7 @@ body {
 .member-section ul li img {
   width: 400px;
   max-width: 100%;
-  transition: all 0.3s;
+  transition: all 0.2s linear;
 }
 
 .member-section ul li:hover img {
