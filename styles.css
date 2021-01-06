@@ -121,7 +121,6 @@ body {
 
 .news-section {
   width: 100%;
-  min-height: 50vh;
   text-align: center;
   color: white;
   background: linear-gradient(rgb(20,20,20),rgb(20,20,20));
@@ -298,7 +297,7 @@ body {
 .member-section h1{
   color: white;
   font-size: 42px;
-  padding-top: 120px;
+  padding-top: 30px;
 }
 
 .member-section ul {
@@ -309,13 +308,15 @@ body {
 .member-section ul li {
   display: inline-table;
   margin: 50px 50px;
-  background: rgb(230,230,230);
-  border: 1px solid black;
+  height: 460px;
+  background: rgba(255,255,255,0.9);
+  /* border: 1px solid black; */
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
   transition: all 0.3s;
 }
 
 .member-section ul li h1 {
-  color: black;
+  color: rgba(0, 0, 0, 0.9);
   padding: 0;
   margin: 0;
   line-height: 60px;
@@ -323,6 +324,7 @@ body {
 
 .member-section ul li .member-item {
   overflow: hidden;
+  max-height: 400px;
 }
 
 .member-section ul li img {
